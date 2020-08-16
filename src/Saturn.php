@@ -4,7 +4,7 @@ class Saturn
 {
 
     public function setConfig(){
-        echo "Saturn works";
+        echo "Saturn works 2";
     }
 
 }
