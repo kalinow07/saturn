@@ -5,6 +5,13 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "require": {},
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "kalinow07/saturn"
+            ]
+        }
+    },
     "autoload": {
         "classmap": ["src"]
     }
