@@ -11,5 +11,8 @@
                 "Kalinow\\Saturn\\SaturnPackageProvider"
             ]
         }
+    },
+    "autoload": {
+        "classmap": ["src"]
     }
 }
