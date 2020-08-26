@@ -5,16 +5,7 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Kalinow\\Saturn\\SaturnPackageProvider"
-            ]
-        }
-    },
     "autoload": {
-        "psr-4": {
-            "Kalinow\\Saturn\\": "packages/kalinow/saturn/src"
-        }
+        "classmap": ["src"]
     }
 }
