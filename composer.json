@@ -1,20 +1,15 @@
 {
-  "name": "kalinow07/saturn",
-  "description": "Authorization system",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "Kalinowskiy Dmitriy",
-      "email": "kalinow_07@mail.ru"
+    "name": "kalinow07/saturn",
+    "description": "Access package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kalinow\\Saturn\\SaturnPackageProvider"
+            ]
+        }
     }
-  ],
-  "require": {
-    "php": ">=7.3.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "4.8.9"
-  },
-  "autoload": {
-    "classmap": ["src"]
-  }
 }
