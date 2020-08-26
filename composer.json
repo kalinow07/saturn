@@ -13,6 +13,8 @@
         }
     },
     "autoload": {
-        "classmap": ["src"]
+        "psr-4": {
+            "Kalinow\\Saturn\\": "packages/kalinow/saturn/src"
+        }
     }
 }
