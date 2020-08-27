@@ -7,8 +7,8 @@
     "require": {},
     "extra": {
         "laravel": {
-            "dont-discover": [
-                "kalinow07/saturn"
+            "providers": [
+                "Kalinow\\Saturn\\SaturnPackageProvider"
             ]
         }
     },
