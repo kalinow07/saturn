@@ -29,5 +29,6 @@ class SaturnPackageProvider extends ServiceProvider
             __DIR__ . '/views' => base_path('resources/views/kalinow/saturn/views'),
             __DIR__ . '/config/saturn.php' => config_path('saturn.php'),
         ]);
+        $this->loadMigrationsFrom(__DIR__.'/migrations');
     }
 }
