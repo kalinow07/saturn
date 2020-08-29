@@ -28,6 +28,8 @@ class SaturnPackageProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/views' => base_path('resources/views/kalinow/saturn/views'),
             __DIR__ . '/js' => base_path('resources/views/kalinow/saturn/js'),
+            __DIR__ . '/img' => base_path('resources/views/kalinow/saturn/img'),
+            __DIR__ . '/img/favicon.ico' => base_path('public'),
             __DIR__ . '/js' => base_path('public/js'),
             __DIR__ . '/config/saturn.php' => config_path('saturn.php'),
         ]);
