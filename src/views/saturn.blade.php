@@ -11,6 +11,6 @@
 <div id="app">
     <example-component></example-component>
 </div>
-<script  type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::to('/js/app.js') }}"></script>
+<script  type="text/javascript" src="{{ \Illuminate\Support\Facades\URL::to('/js/saturn.js') }}"></script>
 </body>
 </html>
